@@ -1,0 +1,103 @@
+.hero-sec {
+    height: 70vh;
+    flex-direction: column;
+    display: flex;
+    .img {
+        background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/sl1-967x725.jpg");
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .img-desc {
+        position: absolute;
+        color: #1b745e;
+    }
+    .second-img {
+        background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/sl7.jpg");
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+}
+.secondSec {
+    background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background2.jpg");
+    display: flex;
+    justify-content: center;
+    .secondSec-wrapper {
+        // width: 600px;
+        display: flex;
+        margin-top: 90px;
+        margin-bottom: 90px;
+        .secondSec-left {
+            background-color: #1b745e;
+            padding: 50px 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            // width: 500px;
+            color: white;
+            button {
+                padding: 10px 30px;
+                margin-top: 10px;
+                border: none;
+                color: #1b745e;
+            }
+        }
+    }
+}
+.third-sec {
+    // display: ;
+    background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1.jpg");
+    .third-sec_desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // justify-content: center;
+        color: #1b745e;
+    }
+    .third-sec_cards {
+        border: 1px solid black;
+        width: 400px;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        .container {
+            // width: 90%;
+            // margin: 0 auto;
+            margin-top: 30px;
+            margin-left: 30px;
+            margin-bottom: 30px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            .card {
+                // position: relative;
+                width: 500px;
+                border: 1px solid red;
+                display: flex;
+                flex-direction: column;
+                // justify-content: ;
+                gap: 10px;
+                color: #1b745e;
+                img{
+                    // position: absolute;
+                    width:100%;
+                    height:500px;
+                    object-fit: cover;
+                }
+                .card-desc {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                  
+                }
+            }
+        }
+    }
+}
