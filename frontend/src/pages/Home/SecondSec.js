@@ -15,7 +15,7 @@ const SecondSec = () => {
                       
                     </div>
                     <div className='econdSec-right'>
-                 <img src="https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg"/>
+                 <img src="https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg" alt="img"/>
                     </div>
                 </div>
             </div>
